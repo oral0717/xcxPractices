@@ -1,0 +1,2 @@
+# xcxPractices
+WeChat mini programs 
