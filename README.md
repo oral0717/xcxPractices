@@ -2,6 +2,11 @@
 WeChat mini programs 
 微信小程序实战
 
+### 分支说明
+1. backup下存放备份分支
+  backup/originXCX-20201204 // 小程序初始化项目
+2. feature下存放功能分支
+
 ### 项目cookbook：
 1. npx omi-cli init-x cookbook // 新建小程序cookbook
 2. npm init -y // 生成package.json文件，安装npm包等， npm i moment --production -s 安装生产环境的包减少小程序主包不必要的包
