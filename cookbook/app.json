@@ -4,6 +4,12 @@
 		"pages/index-with-data/index",
     "pages/logs/logs"
   ],
+  "subpackages": [
+    {
+      "root": "system",
+      "pages": []
+    }
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
