@@ -1,0 +1,13 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "小程序开发菜谱",
+  "main": "app.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Oral",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.2"
+  }
+}

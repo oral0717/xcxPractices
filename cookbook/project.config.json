@@ -29,17 +29,17 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
-    "bundle": true,
+    "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
+    "userConfirmedBundleSwitch": true,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.8.3",
+  "libVersion": "2.14.0",
   "appid": "wxc52d745590e6f030",
   "projectname": "cookbook",
   "debugOptions": {
