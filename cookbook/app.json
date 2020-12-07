@@ -9,7 +9,7 @@
       "root": "system",
       "pages": [
         "pages/aboutApp/index",
-        "pages/aboutNpmPages/index",
+        "pages/aboutNpmPackages/index",
         "pages/aboutPage/index",
         "pages/components/index"
       ]
