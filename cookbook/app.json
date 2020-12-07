@@ -1,13 +1,18 @@
 {
   "pages": [
-		"pages/index/index",
-		"pages/index-with-data/index",
+    "pages/index/index",
+    "pages/index-with-data/index",
     "pages/logs/logs"
   ],
   "subpackages": [
     {
       "root": "system",
-      "pages": []
+      "pages": [
+        "pages/aboutApp/index",
+        "pages/aboutNpmPages/index",
+        "pages/aboutPage/index",
+        "pages/components/index"
+      ]
     }
   ],
   "window": {
