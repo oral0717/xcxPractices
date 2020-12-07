@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "test-store": "/components/test-store/test-store"
-  }
+    "test-store": "/components/test-store/test-store",
+    "van-button": "@vant/weapp/button/index"
+  },
+  "navigationBarTitleText": "首页"
 }
