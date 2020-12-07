@@ -1,4 +1,4 @@
-// system/pages/aboutNpmPages/index.js
+// system/pages/aboutNpmPackages/index.js
 Page({
 
   /**
