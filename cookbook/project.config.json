@@ -21,7 +21,7 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": true,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
     "babelSetting": {
       "ignore": [],
@@ -36,7 +36,8 @@
     "userConfirmedBundleSwitch": true,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "useApiHostProcess": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
@@ -46,8 +47,10 @@
     "hidedInDevtools": []
   },
   "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
+  "simulatorType": "qywx_simulator_plugin",
+  "simulatorPluginLibVersion": {
+    "qywx_simulator_plugin": "2.4.0"
+  },
   "condition": {
     "search": {
       "list": []
