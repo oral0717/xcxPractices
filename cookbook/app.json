@@ -6,12 +6,27 @@
   ],
   "subpackages": [
     {
-      "root": "system",
+      "root": "aboutApp",
       "pages": [
-        "pages/aboutApp/index",
-        "pages/aboutNpmPackages/index",
-        "pages/aboutPage/index",
-        "pages/components/index"
+        "pages/main/index"
+      ]
+    },
+    {
+      "root": "aboutPage",
+      "pages": [
+        "pages/main/index"
+      ]
+    },
+    {
+      "root": "aboutNpmPackages",
+      "pages": [
+        "pages/main/index"
+      ]
+    },
+    {
+      "root": "aboutComponents",
+      "pages": [
+        "pages/main/index"
       ]
     }
   ],
