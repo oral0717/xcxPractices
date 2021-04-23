@@ -8,7 +8,10 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}-{{reverseMotto}}-{{newProp}}</text>
+    <!-- <text class="user-motto">{{motto}}-{{reverseMotto}}-{{newProp}}</text> -->
+    <view>《春晓》 - 孟浩然</view>
+    <view>春眠不觉晓，处处闻啼鸟。</view>
+    <view>夜来风雨声，花落知多少。</view>
   </view>
-  <test-store />
+  <!-- <test-store /> -->
 </view>
