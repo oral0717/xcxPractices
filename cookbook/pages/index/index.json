@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "tabbar": "/components/custom/tabbar",
     "test-store": "/components/test-store/test-store",
     "van-button": "@vant/weapp/button/index"
   },

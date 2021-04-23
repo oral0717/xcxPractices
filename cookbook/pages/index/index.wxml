@@ -12,7 +12,3 @@
   </view>
   <test-store />
 </view>
-
-<tabbar
-  tabbarActive="{{1}}"
-/>
