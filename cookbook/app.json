@@ -18,13 +18,13 @@
       ]
     },
     {
-      "root": "aboutNpmPackages",
+      "root": "aboutNpmPackage",
       "pages": [
         "pages/main/index"
       ]
     },
     {
-      "root": "aboutComponents",
+      "root": "aboutComponent",
       "pages": [
         "pages/main/index"
       ]

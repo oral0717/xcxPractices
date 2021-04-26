@@ -7,10 +7,20 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
-    wx.login({
+    // wx.login({ // 在微信、企业微信环境均可
+    //   success: res => {
+    //     // 发送 res.code 到后台换取 openId, sessionKey, unionId
+    //     console.log('微信登录', res)
+    //   }
+    // })
+    wx.qy.login({ // 如果在微信环境中，会报错；用户登录凭证（有效期五分钟）。开发者需要在开发者服务器后台调用 api，使用 code 换取 userid 和 session_key 等信息
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
-      }
+        console.log('企业微信登录', res)
+      },
+      timeout() {},
+      fail() {},
+      complete() {}
     })
     // 获取用户信息
     wx.getSetting({

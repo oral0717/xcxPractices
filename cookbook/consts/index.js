@@ -9,5 +9,5 @@ export const tabbar = [{
   name: 'NpmPackage'
 }, {
   id: 4,
-  name: 'Cmps'
+  name: 'Cmp'
 }]
