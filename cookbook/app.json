@@ -28,6 +28,12 @@
       "pages": [
         "pages/main/index"
       ]
+    },
+    {
+      "root": "aboutEchart",
+      "pages": [
+        "pages/main/index"
+      ]
     }
   ],
   "window": {
