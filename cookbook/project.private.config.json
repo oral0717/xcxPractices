@@ -1,0 +1,35 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页2",
+          "pathName": "pages/index-with-data/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "照相机",
+          "pathName": "pages/camera/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

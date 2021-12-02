@@ -1,0 +1,13 @@
+<!--pages/camera/index.wxml-->
+<text>pages/camera/index.wxml</text>
+<view class="camera">
+  <camera mode="normal"
+    resolution="high"
+    device-position="back"
+    flash="{{cameraFlash}}"
+    frame-size="large"
+    style="width: 400rpx;height: 400rpx;"/>
+  <button type="primary" bindtap="takePhoto">拍照</button>
+  <view>预览</view>
+  <image mode="widthFix" src="{{src}}"></image>
+</view>
