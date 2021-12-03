@@ -1,0 +1,4 @@
+<view>饼图</view>
+<view class="container chart-view1">
+  <ec-canvas id="chart" canvas-id="mychart-line" ec="{{ diseaseChart }}"></ec-canvas>
+</view>

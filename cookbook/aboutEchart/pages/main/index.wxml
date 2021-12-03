@@ -1,2 +1,23 @@
 <!--aboutEchart/pages/main/index.wxml-->
-<text>aboutApp/pages/main/index.wxml</text>
+<van-config-provider theme-vars="{{ themeVars }}">
+  <van-cell-group title="折线图" inset>
+    <van-cell
+      is-link
+      title="折线图1"
+      value="demo"
+      label="平滑、渐变背景、网格、"
+      link-type="navigateTo"
+      url="/aboutEchart/pages/zheXian/index"
+    />
+  </van-cell-group>
+  <van-cell-group title="饼图" inset>
+    <van-cell
+      is-link
+      title="饼图1"
+      value="demo"
+      label="普通饼图"
+      link-type="navigateTo"
+      url="/aboutEchart/pages/bingTu/index"
+    />
+  </van-cell-group>
+</van-config-provider>

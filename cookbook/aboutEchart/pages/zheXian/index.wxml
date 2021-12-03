@@ -1,0 +1,8 @@
+<!--aboutEchart/pages/zheXian/index.wxml-->
+<view>折线图</view>
+<view class="container zhexian1">
+  <ec-canvas id="diseaseChart" canvas-id="mychart-line" ec="{{ diseaseChart }}"></ec-canvas>
+</view>
+<view class="container zhexian2">
+  <!-- <ec-canvas id="diseaseChart" canvas-id="mychart-line" ec="{{ diseaseChart }}"></ec-canvas> -->
+</view>

@@ -1,0 +1,15 @@
+/* aboutEchart/pages/zheXian/index.wxss */
+.container{
+  height: 800rpx;
+
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.zhexian1{
+  background-color: #132c9b;
+}
+.zhexian2{
+  background-color: #099246;
+}

@@ -1,6 +1,7 @@
 {
-  "entryPagePath": "pages/index/index",
+  "entryPagePath": "pages/main/index",
   "pages": [
+    "pages/main/index",
     "pages/index/index",
     "pages/index-with-data/index",
     "pages/logs/logs",
@@ -34,7 +35,8 @@
     {
       "root": "aboutEchart",
       "pages": [
-        "pages/main/index"
+        "pages/main/index",
+        "pages/zheXian/index"
       ]
     }
   ],
@@ -43,6 +45,9 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "OralCookbook",
     "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-config-provider": "@vant/weapp/config-provider/index"
   },
   "sitemapLocation": "sitemap.json"
 }

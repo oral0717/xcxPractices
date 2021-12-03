@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -13,7 +14,7 @@
       "list": [
         {
           "name": "首页",
-          "pathName": "pages/index/index",
+          "pathName": "pages/main/index",
           "query": "",
           "scene": null
         },
@@ -26,6 +27,18 @@
         {
           "name": "照相机",
           "pathName": "pages/camera/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Echart导航页",
+          "pathName": "aboutEchart/pages/main/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "折线图",
+          "pathName": "aboutEchart/pages/zheXian/index",
           "query": "",
           "scene": null
         }

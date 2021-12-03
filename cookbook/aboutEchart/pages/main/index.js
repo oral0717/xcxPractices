@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    themeVars: { // 修改vant ui主题变量
+      cellValueColor: 'purple' // cell
+    }
   },
 
   /**

@@ -1,0 +1,12 @@
+<!--pages/main/index.wxml-->
+<van-config-provider theme-vars="{{ themeVars }}">
+  <van-cell-group title="echarts图表">
+    <van-cell
+      is-link
+      title="echarts"
+      value="demo"
+      link-type="navigateTo"
+      url="/aboutEchart/pages/main/index"
+    />
+  </van-cell-group>
+</van-config-provider>
